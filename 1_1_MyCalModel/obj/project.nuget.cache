@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Un/P/VWdFyNs2WbtbhU8HnwJUjRMqPCXSStYjUffnldKy190yhTV/THZGo3nJIYL+8GPEKmAP7MMUuBZuo+YDg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\evan.chen\\source\\repos\\Lessons\\1_1_MyCalModel\\1_1_MyCalModel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\evan.chen\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
