@@ -1,0 +1,10 @@
+C:\Users\evan.chen\source\repos\Lessons\2_4_FrmFile\bin\Debug\2_4_FrmFile.exe.config
+C:\Users\evan.chen\source\repos\Lessons\2_4_FrmFile\bin\Debug\2_4_FrmFile.exe
+C:\Users\evan.chen\source\repos\Lessons\2_4_FrmFile\bin\Debug\2_4_FrmFile.pdb
+C:\Users\evan.chen\source\repos\Lessons\2_4_FrmFile\obj\Debug\_2_4_FrmFile.Properties.Resources.resources
+C:\Users\evan.chen\source\repos\Lessons\2_4_FrmFile\obj\Debug\2_4_FrmFile.csproj.GenerateResource.cache
+C:\Users\evan.chen\source\repos\Lessons\2_4_FrmFile\obj\Debug\2_4_FrmFile.csproj.CoreCompileInputs.cache
+C:\Users\evan.chen\source\repos\Lessons\2_4_FrmFile\obj\Debug\2_4_FrmFile.exe
+C:\Users\evan.chen\source\repos\Lessons\2_4_FrmFile\obj\Debug\2_4_FrmFile.pdb
+C:\Users\evan.chen\source\repos\Lessons\2_4_FrmFile\obj\Debug\_2_4_FrmFile.FrmMain.resources
+C:\Users\evan.chen\source\repos\Lessons\2_4_FrmFile\obj\Debug\2_4_FrmFile.csprojAssemblyReference.cache

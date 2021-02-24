@@ -1,0 +1,10 @@
+C:\Users\evan.chen\source\repos\Lessons\2_5_SaveInstance\bin\Debug\2_5_SaveInstance.exe.config
+C:\Users\evan.chen\source\repos\Lessons\2_5_SaveInstance\bin\Debug\2_5_SaveInstance.exe
+C:\Users\evan.chen\source\repos\Lessons\2_5_SaveInstance\bin\Debug\2_5_SaveInstance.pdb
+C:\Users\evan.chen\source\repos\Lessons\2_5_SaveInstance\obj\Debug\2_5_SaveInstance.csprojAssemblyReference.cache
+C:\Users\evan.chen\source\repos\Lessons\2_5_SaveInstance\obj\Debug\_2_5_SaveInstance.FrmMain.resources
+C:\Users\evan.chen\source\repos\Lessons\2_5_SaveInstance\obj\Debug\_2_5_SaveInstance.Properties.Resources.resources
+C:\Users\evan.chen\source\repos\Lessons\2_5_SaveInstance\obj\Debug\2_5_SaveInstance.csproj.GenerateResource.cache
+C:\Users\evan.chen\source\repos\Lessons\2_5_SaveInstance\obj\Debug\2_5_SaveInstance.csproj.CoreCompileInputs.cache
+C:\Users\evan.chen\source\repos\Lessons\2_5_SaveInstance\obj\Debug\2_5_SaveInstance.exe
+C:\Users\evan.chen\source\repos\Lessons\2_5_SaveInstance\obj\Debug\2_5_SaveInstance.pdb

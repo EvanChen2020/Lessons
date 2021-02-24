@@ -1,0 +1,10 @@
+C:\Users\evan.chen\source\repos\Lessons\1_1_VBCal\bin\Debug\1_1_VBCal.dll
+C:\Users\evan.chen\source\repos\Lessons\1_1_VBCal\bin\Debug\1_1_VBCal.pdb
+C:\Users\evan.chen\source\repos\Lessons\1_1_VBCal\bin\Debug\1_1_VBCal.xml
+C:\Users\evan.chen\source\repos\Lessons\1_1_VBCal\obj\Debug\_1_1_VBCal.Resources.resources
+C:\Users\evan.chen\source\repos\Lessons\1_1_VBCal\obj\Debug\1_1_VBCal.vbproj.GenerateResource.cache
+C:\Users\evan.chen\source\repos\Lessons\1_1_VBCal\obj\Debug\1_1_VBCal.vbproj.CoreCompileInputs.cache
+C:\Users\evan.chen\source\repos\Lessons\1_1_VBCal\obj\Debug\1_1_VBCal.dll
+C:\Users\evan.chen\source\repos\Lessons\1_1_VBCal\obj\Debug\1_1_VBCal.xml
+C:\Users\evan.chen\source\repos\Lessons\1_1_VBCal\obj\Debug\1_1_VBCal.pdb
+C:\Users\evan.chen\source\repos\Lessons\1_1_VBCal\obj\Debug\1_1_VBCal.vbprojAssemblyReference.cache

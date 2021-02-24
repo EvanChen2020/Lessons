@@ -9,7 +9,6 @@ C:\Users\evan.chen\source\repos\Lessons\ConsoleApp1\obj\Debug\OOPPK.pdb
 C:\Users\evan.chen\source\repos\Lessons\OOPPK\bin\Debug\OOPPK.exe.config
 C:\Users\evan.chen\source\repos\Lessons\OOPPK\bin\Debug\OOPPK.exe
 C:\Users\evan.chen\source\repos\Lessons\OOPPK\bin\Debug\OOPPK.pdb
-C:\Users\evan.chen\source\repos\Lessons\OOPPK\obj\Debug\OOPPK.csprojAssemblyReference.cache
 C:\Users\evan.chen\source\repos\Lessons\OOPPK\obj\Debug\OOPPK.csproj.CoreCompileInputs.cache
 C:\Users\evan.chen\source\repos\Lessons\OOPPK\obj\Debug\OOPPK.exe
 C:\Users\evan.chen\source\repos\Lessons\OOPPK\obj\Debug\OOPPK.pdb

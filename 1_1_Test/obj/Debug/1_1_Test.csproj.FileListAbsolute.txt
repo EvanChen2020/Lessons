@@ -1,0 +1,6 @@
+C:\Users\evan.chen\source\repos\Lessons\1_1_Test\bin\Debug\1_1_Test.exe.config
+C:\Users\evan.chen\source\repos\Lessons\1_1_Test\bin\Debug\1_1_Test.exe
+C:\Users\evan.chen\source\repos\Lessons\1_1_Test\bin\Debug\1_1_Test.pdb
+C:\Users\evan.chen\source\repos\Lessons\1_1_Test\obj\Debug\1_1_Test.csproj.CoreCompileInputs.cache
+C:\Users\evan.chen\source\repos\Lessons\1_1_Test\obj\Debug\1_1_Test.exe
+C:\Users\evan.chen\source\repos\Lessons\1_1_Test\obj\Debug\1_1_Test.pdb

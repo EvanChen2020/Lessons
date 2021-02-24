@@ -1,0 +1,7 @@
+C:\Users\evan.chen\source\repos\Lessons\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\evan.chen\source\repos\Lessons\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\evan.chen\source\repos\Lessons\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\evan.chen\source\repos\Lessons\HelloWorld\obj\Debug\1_0_HelloWorld.csprojAssemblyReference.cache
+C:\Users\evan.chen\source\repos\Lessons\HelloWorld\obj\Debug\1_0_HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\evan.chen\source\repos\Lessons\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\evan.chen\source\repos\Lessons\HelloWorld\obj\Debug\HelloWorld.pdb

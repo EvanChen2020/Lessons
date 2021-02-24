@@ -1,0 +1,10 @@
+C:\Users\evan.chen\source\repos\Lessons\2_2_WinformTest\bin\Debug\2_2_WinformTest.exe.config
+C:\Users\evan.chen\source\repos\Lessons\2_2_WinformTest\bin\Debug\2_2_WinformTest.exe
+C:\Users\evan.chen\source\repos\Lessons\2_2_WinformTest\bin\Debug\2_2_WinformTest.pdb
+C:\Users\evan.chen\source\repos\Lessons\2_2_WinformTest\obj\Debug\2_2_WinformTest.csprojAssemblyReference.cache
+C:\Users\evan.chen\source\repos\Lessons\2_2_WinformTest\obj\Debug\_2_2_WinformTest.Properties.Resources.resources
+C:\Users\evan.chen\source\repos\Lessons\2_2_WinformTest\obj\Debug\2_2_WinformTest.csproj.GenerateResource.cache
+C:\Users\evan.chen\source\repos\Lessons\2_2_WinformTest\obj\Debug\2_2_WinformTest.csproj.CoreCompileInputs.cache
+C:\Users\evan.chen\source\repos\Lessons\2_2_WinformTest\obj\Debug\2_2_WinformTest.exe
+C:\Users\evan.chen\source\repos\Lessons\2_2_WinformTest\obj\Debug\2_2_WinformTest.pdb
+C:\Users\evan.chen\source\repos\Lessons\2_2_WinformTest\obj\Debug\_2_2_WinformTest.FrmMain.resources

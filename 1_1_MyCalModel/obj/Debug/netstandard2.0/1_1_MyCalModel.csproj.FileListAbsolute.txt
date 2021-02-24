@@ -1,1 +1,8 @@
 C:\Users\evan.chen\source\repos\Lessons\1_1_MyCalModel\bin\Debug\netstandard2.0\1_1_MyCalModel.dll
+C:\Users\evan.chen\source\repos\Lessons\1_1_MyCalModel\bin\Debug\netstandard2.0\1_1_MyCalModel.deps.json
+C:\Users\evan.chen\source\repos\Lessons\1_1_MyCalModel\bin\Debug\netstandard2.0\1_1_MyCalModel.pdb
+C:\Users\evan.chen\source\repos\Lessons\1_1_MyCalModel\obj\Debug\netstandard2.0\1_1_MyCalModel.AssemblyInfoInputs.cache
+C:\Users\evan.chen\source\repos\Lessons\1_1_MyCalModel\obj\Debug\netstandard2.0\1_1_MyCalModel.AssemblyInfo.cs
+C:\Users\evan.chen\source\repos\Lessons\1_1_MyCalModel\obj\Debug\netstandard2.0\1_1_MyCalModel.csproj.CoreCompileInputs.cache
+C:\Users\evan.chen\source\repos\Lessons\1_1_MyCalModel\obj\Debug\netstandard2.0\1_1_MyCalModel.dll
+C:\Users\evan.chen\source\repos\Lessons\1_1_MyCalModel\obj\Debug\netstandard2.0\1_1_MyCalModel.pdb
