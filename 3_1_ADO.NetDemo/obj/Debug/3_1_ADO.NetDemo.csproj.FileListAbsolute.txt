@@ -1,0 +1,7 @@
+C:\Users\evan.chen\source\repos\Lessons\3_1_ADO.NetDemo\obj\Debug\3_1_ADO.NetDemo.csprojAssemblyReference.cache
+C:\Users\evan.chen\source\repos\Lessons\3_1_ADO.NetDemo\obj\Debug\3_1_ADO.NetDemo.csproj.CoreCompileInputs.cache
+C:\Users\evan.chen\source\repos\Lessons\3_1_ADO.NetDemo\bin\Debug\3_1_ADO.NetDemo.exe.config
+C:\Users\evan.chen\source\repos\Lessons\3_1_ADO.NetDemo\bin\Debug\3_1_ADO.NetDemo.exe
+C:\Users\evan.chen\source\repos\Lessons\3_1_ADO.NetDemo\bin\Debug\3_1_ADO.NetDemo.pdb
+C:\Users\evan.chen\source\repos\Lessons\3_1_ADO.NetDemo\obj\Debug\3_1_ADO.NetDemo.exe
+C:\Users\evan.chen\source\repos\Lessons\3_1_ADO.NetDemo\obj\Debug\3_1_ADO.NetDemo.pdb

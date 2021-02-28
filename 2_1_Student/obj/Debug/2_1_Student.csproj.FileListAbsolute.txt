@@ -4,4 +4,3 @@ C:\Users\evan.chen\source\repos\Lessons\2_1_Student\bin\Debug\2_1_Student.pdb
 C:\Users\evan.chen\source\repos\Lessons\2_1_Student\obj\Debug\2_1_Student.csproj.CoreCompileInputs.cache
 C:\Users\evan.chen\source\repos\Lessons\2_1_Student\obj\Debug\2_1_Student.exe
 C:\Users\evan.chen\source\repos\Lessons\2_1_Student\obj\Debug\2_1_Student.pdb
-C:\Users\evan.chen\source\repos\Lessons\2_1_Student\obj\Debug\2_1_Student.csprojAssemblyReference.cache

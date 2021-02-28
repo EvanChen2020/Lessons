@@ -1,0 +1,14 @@
+C:\Users\evan.chen\source\repos\Lessons\3_1_WFDemo\bin\Debug\3_1_WFDemo.exe.config
+C:\Users\evan.chen\source\repos\Lessons\3_1_WFDemo\bin\Debug\3_1_WFDemo.exe
+C:\Users\evan.chen\source\repos\Lessons\3_1_WFDemo\bin\Debug\3_1_WFDemo.pdb
+C:\Users\evan.chen\source\repos\Lessons\3_1_WFDemo\bin\Debug\3_1_ADO.NetDemo.exe
+C:\Users\evan.chen\source\repos\Lessons\3_1_WFDemo\bin\Debug\3_1_ADO.NetDemo.pdb
+C:\Users\evan.chen\source\repos\Lessons\3_1_WFDemo\bin\Debug\3_1_ADO.NetDemo.exe.config
+C:\Users\evan.chen\source\repos\Lessons\3_1_WFDemo\obj\Debug\3_1_WFDemo.csprojAssemblyReference.cache
+C:\Users\evan.chen\source\repos\Lessons\3_1_WFDemo\obj\Debug\_3_1_WFDemo.FrmMain.resources
+C:\Users\evan.chen\source\repos\Lessons\3_1_WFDemo\obj\Debug\_3_1_WFDemo.Properties.Resources.resources
+C:\Users\evan.chen\source\repos\Lessons\3_1_WFDemo\obj\Debug\3_1_WFDemo.csproj.GenerateResource.cache
+C:\Users\evan.chen\source\repos\Lessons\3_1_WFDemo\obj\Debug\3_1_WFDemo.csproj.CoreCompileInputs.cache
+C:\Users\evan.chen\source\repos\Lessons\3_1_WFDemo\obj\Debug\3_1_WFDemo.csproj.CopyComplete
+C:\Users\evan.chen\source\repos\Lessons\3_1_WFDemo\obj\Debug\3_1_WFDemo.exe
+C:\Users\evan.chen\source\repos\Lessons\3_1_WFDemo\obj\Debug\3_1_WFDemo.pdb

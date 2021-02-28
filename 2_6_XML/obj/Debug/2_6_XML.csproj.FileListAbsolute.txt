@@ -1,0 +1,9 @@
+C:\Users\evan.chen\source\repos\Lessons\2_6_XML\bin\Debug\2_6_XML.exe.config
+C:\Users\evan.chen\source\repos\Lessons\2_6_XML\bin\Debug\2_6_XML.exe
+C:\Users\evan.chen\source\repos\Lessons\2_6_XML\bin\Debug\2_6_XML.pdb
+C:\Users\evan.chen\source\repos\Lessons\2_6_XML\obj\Debug\_2_6_XML.FrmMain.resources
+C:\Users\evan.chen\source\repos\Lessons\2_6_XML\obj\Debug\_2_6_XML.Properties.Resources.resources
+C:\Users\evan.chen\source\repos\Lessons\2_6_XML\obj\Debug\2_6_XML.csproj.GenerateResource.cache
+C:\Users\evan.chen\source\repos\Lessons\2_6_XML\obj\Debug\2_6_XML.csproj.CoreCompileInputs.cache
+C:\Users\evan.chen\source\repos\Lessons\2_6_XML\obj\Debug\2_6_XML.exe
+C:\Users\evan.chen\source\repos\Lessons\2_6_XML\obj\Debug\2_6_XML.pdb

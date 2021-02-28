@@ -1,0 +1,11 @@
+C:\Users\evan.chen\source\repos\Lessons\2_7_TeachDemo\bin\Debug\2_7_TeachDemo.exe.config
+C:\Users\evan.chen\source\repos\Lessons\2_7_TeachDemo\bin\Debug\2_7_TeachDemo.exe
+C:\Users\evan.chen\source\repos\Lessons\2_7_TeachDemo\bin\Debug\2_7_TeachDemo.pdb
+C:\Users\evan.chen\source\repos\Lessons\2_7_TeachDemo\obj\Debug\_2_7_TeachDemo.FrmAdminLogin.resources
+C:\Users\evan.chen\source\repos\Lessons\2_7_TeachDemo\obj\Debug\_2_7_TeachDemo.Properties.Resources.resources
+C:\Users\evan.chen\source\repos\Lessons\2_7_TeachDemo\obj\Debug\2_7_TeachDemo.csproj.GenerateResource.cache
+C:\Users\evan.chen\source\repos\Lessons\2_7_TeachDemo\obj\Debug\2_7_TeachDemo.csproj.CoreCompileInputs.cache
+C:\Users\evan.chen\source\repos\Lessons\2_7_TeachDemo\obj\Debug\2_7_TeachDemo.exe
+C:\Users\evan.chen\source\repos\Lessons\2_7_TeachDemo\obj\Debug\2_7_TeachDemo.pdb
+C:\Users\evan.chen\source\repos\Lessons\2_7_TeachDemo\obj\Debug\_2_7_TeachDemo.FrmAddProduct.resources
+C:\Users\evan.chen\source\repos\Lessons\2_7_TeachDemo\obj\Debug\_2_7_TeachDemo.FrmMain.resources

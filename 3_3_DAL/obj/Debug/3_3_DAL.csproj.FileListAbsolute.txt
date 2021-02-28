@@ -1,0 +1,9 @@
+C:\Users\evan.chen\source\repos\Lessons\3_3_DAL\bin\Debug\3_3_DAL.dll
+C:\Users\evan.chen\source\repos\Lessons\3_3_DAL\bin\Debug\3_3_DAL.pdb
+C:\Users\evan.chen\source\repos\Lessons\3_3_DAL\bin\Debug\3_3_Models.dll
+C:\Users\evan.chen\source\repos\Lessons\3_3_DAL\bin\Debug\3_3_Models.pdb
+C:\Users\evan.chen\source\repos\Lessons\3_3_DAL\obj\Debug\3_3_DAL.csprojAssemblyReference.cache
+C:\Users\evan.chen\source\repos\Lessons\3_3_DAL\obj\Debug\3_3_DAL.csproj.CoreCompileInputs.cache
+C:\Users\evan.chen\source\repos\Lessons\3_3_DAL\obj\Debug\3_3_DAL.csproj.CopyComplete
+C:\Users\evan.chen\source\repos\Lessons\3_3_DAL\obj\Debug\3_3_DAL.dll
+C:\Users\evan.chen\source\repos\Lessons\3_3_DAL\obj\Debug\3_3_DAL.pdb

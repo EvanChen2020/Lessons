@@ -1,0 +1,6 @@
+C:\Users\evan.chen\source\repos\Lessons\3_3_Models\bin\Debug\3_3_Models.dll
+C:\Users\evan.chen\source\repos\Lessons\3_3_Models\bin\Debug\3_3_Models.pdb
+C:\Users\evan.chen\source\repos\Lessons\3_3_Models\obj\Debug\3_3_Models.csproj.CoreCompileInputs.cache
+C:\Users\evan.chen\source\repos\Lessons\3_3_Models\obj\Debug\3_3_Models.dll
+C:\Users\evan.chen\source\repos\Lessons\3_3_Models\obj\Debug\3_3_Models.pdb
+C:\Users\evan.chen\source\repos\Lessons\3_3_Models\obj\Debug\3_3_Models.csprojAssemblyReference.cache

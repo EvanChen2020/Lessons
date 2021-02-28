@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace _2_5_SaveInstance
 {
@@ -64,6 +65,39 @@ namespace _2_5_SaveInstance
             this.txtAge.Text = objStudeng.Age.ToString();
             this.txtGender.Text = objStudeng.Gender;
             this.txtBirthday.Text = objStudeng.Birthday.ToShortDateString();
+        }
+
+        private void btnSerial_Click(object sender, EventArgs e)
+        {
+            // package data
+            Student objStudent = new Student()
+            {
+                Name = this.txtName.Text,
+                Age = Convert.ToInt32(this.txtAge.Text.Trim()),
+                Gender = this.txtGender.Text.Trim(),
+                Birthday = Convert.ToDateTime(this.txtBirthday.Text.Trim())
+
+            };
+            //FileStream fs = new FileStream("objStudent.stu", FileMode.Create);
+            //BinaryFormatter formatter = new BinaryFormatter();
+            //formatter.Serialize(fs, objStudent);
+            //fs.Close();
+            StudentService.ObjectSerial("objStudent.stu", objStudent);
+        }
+
+        private void btnUnserial_Click(object sender, EventArgs e)
+        {
+            //FileStream fs = new FileStream("objStudent.stu", FileMode.Open);
+            //BinaryFormatter formatter = new BinaryFormatter();
+            //Student objStudent = (Student)formatter.Deserialize(fs);
+            //fs.Close();
+            Student objStudent  =StudentService.ObjectDeserial("objStudent.stu");
+            //display
+            this.txtName.Text = objStudent.Name;
+            this.txtAge.Text = objStudent.Age.ToString();
+            this.txtGender.Text = objStudent.Gender;
+            this.txtBirthday.Text = objStudent.Birthday.ToShortDateString();
+
         }
     }
 }

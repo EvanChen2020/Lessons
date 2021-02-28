@@ -1,6 +1,5 @@
 C:\Users\evan.chen\source\repos\Lessons\2_3_Models\bin\Debug\2_3_Models.dll
 C:\Users\evan.chen\source\repos\Lessons\2_3_Models\bin\Debug\2_3_Models.pdb
-C:\Users\evan.chen\source\repos\Lessons\2_3_Models\obj\Debug\2_3_Models.csprojAssemblyReference.cache
 C:\Users\evan.chen\source\repos\Lessons\2_3_Models\obj\Debug\2_3_Models.csproj.CoreCompileInputs.cache
 C:\Users\evan.chen\source\repos\Lessons\2_3_Models\obj\Debug\2_3_Models.dll
 C:\Users\evan.chen\source\repos\Lessons\2_3_Models\obj\Debug\2_3_Models.pdb

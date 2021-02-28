@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2_5_SaveInstance
 {
+    [Serializable]// object can be serialized
     class Student
     {
         public string Name { get; set; }

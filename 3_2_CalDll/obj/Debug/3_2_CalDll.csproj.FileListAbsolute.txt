@@ -1,0 +1,5 @@
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDll\bin\Debug\3_2_CalDll.dll
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDll\bin\Debug\3_2_CalDll.pdb
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDll\obj\Debug\3_2_CalDll.csproj.CoreCompileInputs.cache
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDll\obj\Debug\3_2_CalDll.dll
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDll\obj\Debug\3_2_CalDll.pdb

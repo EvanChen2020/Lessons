@@ -40,7 +40,11 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnRead = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnUnserial = new System.Windows.Forms.Button();
+            this.btnSerial = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -138,11 +142,43 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.btnUnserial);
+            this.groupBox2.Controls.Add(this.btnSerial);
+            this.groupBox2.Location = new System.Drawing.Point(55, 314);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(412, 126);
+            this.groupBox2.TabIndex = 2;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Using Serial Function Save";
+            // 
+            // btnUnserial
+            // 
+            this.btnUnserial.Location = new System.Drawing.Point(205, 61);
+            this.btnUnserial.Name = "btnUnserial";
+            this.btnUnserial.Size = new System.Drawing.Size(158, 23);
+            this.btnUnserial.TabIndex = 0;
+            this.btnUnserial.Text = "Unserial";
+            this.btnUnserial.UseVisualStyleBackColor = true;
+            this.btnUnserial.Click += new System.EventHandler(this.btnUnserial_Click);
+            // 
+            // btnSerial
+            // 
+            this.btnSerial.Location = new System.Drawing.Point(41, 61);
+            this.btnSerial.Name = "btnSerial";
+            this.btnSerial.Size = new System.Drawing.Size(158, 23);
+            this.btnSerial.TabIndex = 0;
+            this.btnSerial.Text = "Save Instance";
+            this.btnSerial.UseVisualStyleBackColor = true;
+            this.btnSerial.Click += new System.EventHandler(this.btnSerial_Click);
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(609, 346);
+            this.ClientSize = new System.Drawing.Size(609, 501);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txtBirthday);
             this.Controls.Add(this.label4);
@@ -157,6 +193,7 @@
             this.Name = "FrmMain";
             this.Text = "Save Instance";
             this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -175,6 +212,9 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnRead;
         private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button btnUnserial;
+        private System.Windows.Forms.Button btnSerial;
     }
 }
 

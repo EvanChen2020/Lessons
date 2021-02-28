@@ -1,0 +1,9 @@
+C:\Users\evan.chen\source\repos\Lessons\3_2_VBDll\bin\Debug\3_2_VBDll.dll
+C:\Users\evan.chen\source\repos\Lessons\3_2_VBDll\bin\Debug\3_2_VBDll.pdb
+C:\Users\evan.chen\source\repos\Lessons\3_2_VBDll\bin\Debug\3_2_VBDll.xml
+C:\Users\evan.chen\source\repos\Lessons\3_2_VBDll\obj\Debug\_3_2_VBDll.Resources.resources
+C:\Users\evan.chen\source\repos\Lessons\3_2_VBDll\obj\Debug\3_2_VBDll.vbproj.GenerateResource.cache
+C:\Users\evan.chen\source\repos\Lessons\3_2_VBDll\obj\Debug\3_2_VBDll.vbproj.CoreCompileInputs.cache
+C:\Users\evan.chen\source\repos\Lessons\3_2_VBDll\obj\Debug\3_2_VBDll.dll
+C:\Users\evan.chen\source\repos\Lessons\3_2_VBDll\obj\Debug\3_2_VBDll.xml
+C:\Users\evan.chen\source\repos\Lessons\3_2_VBDll\obj\Debug\3_2_VBDll.pdb

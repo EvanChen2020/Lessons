@@ -1,0 +1,16 @@
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDemo\bin\Debug\3_2_CalDemo.exe.config
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDemo\bin\Debug\3_2_CalDemo.exe
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDemo\bin\Debug\3_2_CalDemo.pdb
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDemo\bin\Debug\3_2_CalDll.dll
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDemo\bin\Debug\3_2_CalDll.pdb
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDemo\obj\Debug\3_2_CalDemo.csprojAssemblyReference.cache
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDemo\obj\Debug\_3_2_CalDemo.FrmMain.resources
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDemo\obj\Debug\_3_2_CalDemo.Properties.Resources.resources
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDemo\obj\Debug\3_2_CalDemo.csproj.GenerateResource.cache
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDemo\obj\Debug\3_2_CalDemo.csproj.CoreCompileInputs.cache
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDemo\obj\Debug\3_2_CalDemo.csproj.CopyComplete
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDemo\obj\Debug\3_2_CalDemo.exe
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDemo\obj\Debug\3_2_CalDemo.pdb
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDemo\bin\Debug\3_2_VBDll.dll
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDemo\bin\Debug\3_2_VBDll.pdb
+C:\Users\evan.chen\source\repos\Lessons\3_2_CalDemo\bin\Debug\3_2_VBDll.xml
