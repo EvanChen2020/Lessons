@@ -13,5 +13,9 @@ namespace _3_3_Models
  public   class StudentExt:Student
     {
         public string ClassName { get; set; }
+
+        public int CSharp { get; set; }
+
+        public int SQLServer { get; set; }
     }
 }

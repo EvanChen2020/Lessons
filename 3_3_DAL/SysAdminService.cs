@@ -38,5 +38,26 @@ namespace _3_3_DAL
             objReader.Close();
             return objAdmin;
         }
+
+        public int ModifyPwd(SysAdmin objAdmin)
+        {
+            //组合SQL语句
+            string sql = "update Admins set LoginPwd='{0}' where LoginId={1}";
+            sql = string.Format(sql,  objAdmin.LoginPwd,objAdmin.LoginId);
+
+            try
+            {
+                return SQLHelper.Update(sql);
+            }
+            catch (SqlException)
+            {
+
+                throw new Exception("应用程序和数据库连接出现问题！");
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

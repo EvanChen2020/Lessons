@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,7 +25,7 @@ namespace StudentManager
         }
 
 
-        ////ÏÔÊ¾Ìí¼ÓÑ§Ô±´°Ìå
+        ////ÃÃ”ÃŠÂ¾ÃŒÃ­Â¼Ã“Ã‘Â§Ã”Â±Â´Â°ÃŒÃ¥
         //private void tsmiAddStudent_Click(object sender, EventArgs e)
         //{
         //    FrmAddStudent objAddStudent = new FrmAddStudent();
@@ -65,25 +65,62 @@ namespace StudentManager
                 objFrmStuManage.WindowState = FormWindowState.Normal;
             }
         }
-        //ÏÔÊ¾³É¼¨²éÑ¯Óë·ÖÎö´°¿Ú    
+        //æ˜¾ç¤ºæˆç»©æŸ¥è¯¢ä¸åˆ†æçª—å£
+        public static FrmScoreManage objFrmScoreManage = null;
+
         private void tsmiQueryAndAnalysis_Click(object sender, EventArgs e)
         {
+            if (objFrmScoreManage == null)
+            {
+                objFrmScoreManage = new FrmScoreManage();
+                objFrmScoreManage.Show();
+                // objFrmAddStudent.ShowDialog();
+            }
+            else
+            {
+                objFrmScoreManage.Activate();//??????????????
+                objFrmScoreManage.WindowState = FormWindowState.Normal;
+            }
         }
-        //ÍË³öÏµÍ³
+        //ÃÃ‹Â³Ã¶ÃÂµÃÂ³
         private void tmiClose_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-     
-        //³É¼¨¿ìËÙ²éÑ¯
+
+        //æˆç»©å¿«é€ŸæŸ¥è¯¢
+        public static FrmScoreQuery objFrmScoreQuery = null;
+
         private void tsmiQuery_Click(object sender, EventArgs e)
         {
-       
+            if (objFrmScoreManage == null)
+            {
+                objFrmScoreQuery = new FrmScoreQuery();
+                objFrmScoreQuery.Show();
+                // objFrmAddStudent.ShowDialog();
+            }
+            else
+            {
+                objFrmScoreQuery.Activate();//??????????????
+                objFrmScoreQuery.WindowState = FormWindowState.Normal;
+            }
         }
-        //ÃÜÂëĞŞ¸Ä
+        //ä¿®æ”¹å¯†ç 
+        public static FrmModifyPwd objFrmModifyPwd = null;
+
         private void tmiModifyPwd_Click(object sender, EventArgs e)
         {
-           
+            if (objFrmScoreManage == null)
+            {
+                objFrmModifyPwd = new FrmModifyPwd();
+                objFrmModifyPwd.Show();
+                // objFrmAddStudent.ShowDialog();
+            }
+            else
+            {
+                objFrmModifyPwd.Activate();//??????????????
+                objFrmModifyPwd.WindowState = FormWindowState.Normal;
+            }
         }
 
         private void tsbAddStudent_Click(object sender, EventArgs e)
@@ -110,10 +147,23 @@ namespace StudentManager
         {
             tsmiQuery_Click(null, null);
         }
-  
+
+        public static FrmAttendance objFrmAttendance = null;
+
         private void tsmi_Card_Click(object sender, EventArgs e)
         {
-          
+            if (objFrmAttendance == null)
+            {
+                objFrmAttendance = new FrmAttendance();
+                objFrmAttendance.Show();
+                // objFrmAddStudent.ShowDialog();
+            }
+            else
+            {
+                objFrmAttendance.Activate();//??????????????
+                objFrmAttendance.WindowState = FormWindowState.Normal;
+            }
+
         }
 
         private void FrmMain_FormClosing(object sender, FormClosingEventArgs e)

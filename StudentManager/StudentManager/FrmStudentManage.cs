@@ -76,7 +76,12 @@ namespace StudentManager
         //Ë«»÷Ñ¡ÖÐµÄÑ§Ô±¶ÔÏó²¢ÏÔÊ¾ÏêÏ¸ÐÅÏ¢
         private void dgvStudentList_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-          
+            if (this.dgvStudentList.CurrentRow!=null)
+            {
+                string studentId = this.dgvStudentList.CurrentRow.Cells["StudentId"].Value.ToString();
+                this.txtStudentId.Text = studentId;
+                btnQueryById_Click(null, null);
+            }
         }
         //ÐÞ¸ÄÑ§Ô±¶ÔÏó
         private void btnEidt_Click(object sender, EventArgs e)
@@ -97,13 +102,47 @@ namespace StudentManager
             StudentExt objStudent = objStuService.GetStudentById(studentId);
             //显示要修改的学员信息窗口
             FrmEditStudent objEditStudent = new FrmEditStudent(objStudent);
-            objEditStudent.ShowDialog();
+            DialogResult result = objEditStudent.ShowDialog();
+            //判断修改是否成功
+            if (result==DialogResult.OK)
+            {
+                btnQuery_Click(null, null);//同步刷新修改的信息（适合查询数据量小的情况）
+            }
 
         }       
         //É¾³ýÑ§Ô±¶ÔÏó
         private void btnDel_Click(object sender, EventArgs e)
         {
+            if (this.dgvStudentList.RowCount == 0)
+            {
+                MessageBox.Show("no student", "information");
+            }
+            if (this.dgvStudentList.CurrentRow == null)
+            {
+                MessageBox.Show("Plese select one student", "information");
+                return;
+            }
+            string studentName = this.dgvStudentList.CurrentRow.Cells["StudentName"].Value.ToString();
+
+            //删除确认
+            DialogResult result = MessageBox.Show("Delete student {"+studentName+"}?", "Delete Query", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (result == DialogResult.Cancel) return;
+
+            //获取学号
+            string studentId = this.dgvStudentList.CurrentRow.Cells["StudentId"].Value.ToString();
           
+            try
+            {
+                if (objStuService.DeleteStudentById(studentId)==1)
+                {
+                    btnQuery_Click(null, null);
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message,"information");
+            }
         }
         private void FrmSearchStudent_FormClosed(object sender, FormClosedEventArgs e)
         {
@@ -119,6 +158,16 @@ namespace StudentManager
         {
             FrmMain.objFrmStuManage = null;//当窗体关闭后，将窗体在内存中清理掉
 
+        }
+
+        private void tsmiModifyStu_Click(object sender, EventArgs e)
+        {
+            btnEidt_Click(null, null);
+        }
+
+        private void tsmidDeleteStu_Click(object sender, EventArgs e)
+        {
+            btnDel_Click(null, null);
         }
     }
 }

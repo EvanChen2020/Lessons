@@ -36,6 +36,11 @@
             this.cboClass = new System.Windows.Forms.ComboBox();
             this.btnQuery = new System.Windows.Forms.Button();
             this.dgvStudentList = new System.Windows.Forms.DataGridView();
+            this.StudentId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.StudentName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Birthday = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ClassName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsmiModifyStu = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmidDeleteStu = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,11 +51,6 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.btnEidt = new System.Windows.Forms.Button();
             this.btnDel = new System.Windows.Forms.Button();
-            this.StudentId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.StudentName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Birthday = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ClassName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudentList)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -117,25 +117,63 @@
             this.dgvStudentList.TabIndex = 3;
             this.dgvStudentList.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvStudentList_CellDoubleClick);
             // 
+            // StudentId
+            // 
+            this.StudentId.DataPropertyName = "StudentId";
+            this.StudentId.Frozen = true;
+            this.StudentId.HeaderText = "学号";
+            this.StudentId.Name = "StudentId";
+            this.StudentId.ReadOnly = true;
+            // 
+            // StudentName
+            // 
+            this.StudentName.DataPropertyName = "StudentName";
+            this.StudentName.HeaderText = "姓名";
+            this.StudentName.Name = "StudentName";
+            this.StudentName.ReadOnly = true;
+            // 
+            // Gender
+            // 
+            this.Gender.DataPropertyName = "Gender";
+            this.Gender.HeaderText = "性别";
+            this.Gender.Name = "Gender";
+            this.Gender.ReadOnly = true;
+            // 
+            // Birthday
+            // 
+            this.Birthday.DataPropertyName = "Birthday";
+            this.Birthday.HeaderText = "出生日期";
+            this.Birthday.Name = "Birthday";
+            this.Birthday.ReadOnly = true;
+            // 
+            // ClassName
+            // 
+            this.ClassName.DataPropertyName = "ClassName";
+            this.ClassName.HeaderText = "所在班级";
+            this.ClassName.Name = "ClassName";
+            this.ClassName.ReadOnly = true;
+            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiModifyStu,
             this.tsmidDeleteStu});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(143, 48);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 70);
             // 
             // tsmiModifyStu
             // 
             this.tsmiModifyStu.Name = "tsmiModifyStu";
-            this.tsmiModifyStu.Size = new System.Drawing.Size(142, 22);
+            this.tsmiModifyStu.Size = new System.Drawing.Size(180, 22);
             this.tsmiModifyStu.Text = "修改学员(&M)";
+            this.tsmiModifyStu.Click += new System.EventHandler(this.tsmiModifyStu_Click);
             // 
             // tsmidDeleteStu
             // 
             this.tsmidDeleteStu.Name = "tsmidDeleteStu";
-            this.tsmidDeleteStu.Size = new System.Drawing.Size(142, 22);
+            this.tsmidDeleteStu.Size = new System.Drawing.Size(180, 22);
             this.tsmidDeleteStu.Text = "删除学员(&D)";
+            this.tsmidDeleteStu.Click += new System.EventHandler(this.tsmidDeleteStu_Click);
             // 
             // groupBox1
             // 
@@ -207,42 +245,6 @@
             this.btnDel.Text = "删  除";
             this.btnDel.UseVisualStyleBackColor = true;
             this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
-            // 
-            // StudentId
-            // 
-            this.StudentId.DataPropertyName = "StudentId";
-            this.StudentId.Frozen = true;
-            this.StudentId.HeaderText = "学号";
-            this.StudentId.Name = "StudentId";
-            this.StudentId.ReadOnly = true;
-            // 
-            // StudentName
-            // 
-            this.StudentName.DataPropertyName = "StudentName";
-            this.StudentName.HeaderText = "姓名";
-            this.StudentName.Name = "StudentName";
-            this.StudentName.ReadOnly = true;
-            // 
-            // Gender
-            // 
-            this.Gender.DataPropertyName = "Gender";
-            this.Gender.HeaderText = "性别";
-            this.Gender.Name = "Gender";
-            this.Gender.ReadOnly = true;
-            // 
-            // Birthday
-            // 
-            this.Birthday.DataPropertyName = "Birthday";
-            this.Birthday.HeaderText = "出生日期";
-            this.Birthday.Name = "Birthday";
-            this.Birthday.ReadOnly = true;
-            // 
-            // ClassName
-            // 
-            this.ClassName.DataPropertyName = "ClassName";
-            this.ClassName.HeaderText = "所在班级";
-            this.ClassName.Name = "ClassName";
-            this.ClassName.ReadOnly = true;
             // 
             // FrmStudentManage
             // 

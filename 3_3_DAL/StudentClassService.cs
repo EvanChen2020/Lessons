@@ -27,5 +27,15 @@ namespace _3_3_DAL
             objReader.Close();
             return list;
         }
+
+        /// <summary>
+        /// 获取所有的班级（存放在数据集里面）
+        /// </summary>
+        /// <returns></returns>
+        public DataSet GetAllClass()
+        {
+            string sql = "select ClassId,ClassName from StudentClass";
+            return SQLHelper.GetDataSet(sql);
+        }
     }
 }

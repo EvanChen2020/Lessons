@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AttendanceService.cs" />
     <Compile Include="Helper\SQLHelper.cs" />
     <Compile Include="Helper\StringSecurity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

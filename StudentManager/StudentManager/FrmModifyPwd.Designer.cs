@@ -42,18 +42,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(39, 27);
+            this.label1.Location = new System.Drawing.Point(39, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 12);
+            this.label1.Size = new System.Drawing.Size(49, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "原密码：";
             // 
             // txtOldPwd
             // 
             this.txtOldPwd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtOldPwd.Location = new System.Drawing.Point(107, 24);
+            this.txtOldPwd.Location = new System.Drawing.Point(107, 26);
             this.txtOldPwd.Name = "txtOldPwd";
-            this.txtOldPwd.Size = new System.Drawing.Size(120, 21);
+            this.txtOldPwd.Size = new System.Drawing.Size(120, 20);
             this.txtOldPwd.TabIndex = 0;
             this.txtOldPwd.UseSystemPasswordChar = true;
             // 
@@ -61,18 +61,18 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.Blue;
-            this.label2.Location = new System.Drawing.Point(39, 54);
+            this.label2.Location = new System.Drawing.Point(39, 59);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 12);
+            this.label2.Size = new System.Drawing.Size(49, 13);
             this.label2.TabIndex = 0;
             this.label2.Text = "新密码：";
             // 
             // txtNewPwd
             // 
             this.txtNewPwd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtNewPwd.Location = new System.Drawing.Point(107, 51);
+            this.txtNewPwd.Location = new System.Drawing.Point(107, 55);
             this.txtNewPwd.Name = "txtNewPwd";
-            this.txtNewPwd.Size = new System.Drawing.Size(120, 21);
+            this.txtNewPwd.Size = new System.Drawing.Size(120, 20);
             this.txtNewPwd.TabIndex = 1;
             this.txtNewPwd.UseSystemPasswordChar = true;
             // 
@@ -80,26 +80,26 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.Brown;
-            this.label3.Location = new System.Drawing.Point(15, 81);
+            this.label3.Location = new System.Drawing.Point(15, 88);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 12);
+            this.label3.Size = new System.Drawing.Size(73, 13);
             this.label3.TabIndex = 0;
             this.label3.Text = "新密码确认：";
             // 
             // txtNewPwdConfirm
             // 
             this.txtNewPwdConfirm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtNewPwdConfirm.Location = new System.Drawing.Point(107, 81);
+            this.txtNewPwdConfirm.Location = new System.Drawing.Point(107, 88);
             this.txtNewPwdConfirm.Name = "txtNewPwdConfirm";
-            this.txtNewPwdConfirm.Size = new System.Drawing.Size(120, 21);
+            this.txtNewPwdConfirm.Size = new System.Drawing.Size(120, 20);
             this.txtNewPwdConfirm.TabIndex = 2;
             this.txtNewPwdConfirm.UseSystemPasswordChar = true;
             // 
             // btnModify
             // 
-            this.btnModify.Location = new System.Drawing.Point(71, 118);
+            this.btnModify.Location = new System.Drawing.Point(71, 128);
             this.btnModify.Name = "btnModify";
-            this.btnModify.Size = new System.Drawing.Size(75, 23);
+            this.btnModify.Size = new System.Drawing.Size(75, 25);
             this.btnModify.TabIndex = 3;
             this.btnModify.Text = "确认修改";
             this.btnModify.UseVisualStyleBackColor = true;
@@ -107,9 +107,9 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(152, 118);
+            this.btnCancel.Location = new System.Drawing.Point(152, 128);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.Size = new System.Drawing.Size(75, 25);
             this.btnCancel.TabIndex = 4;
             this.btnCancel.Text = "取 消";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -117,9 +117,9 @@
             // 
             // FrmModifyPwd
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(268, 163);
+            this.ClientSize = new System.Drawing.Size(268, 177);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnModify);
             this.Controls.Add(this.txtNewPwdConfirm);
@@ -135,6 +135,7 @@
             this.Name = "FrmModifyPwd";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "修改登录密码";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmModifyPwd_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

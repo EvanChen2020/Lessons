@@ -110,28 +110,38 @@ namespace _3_3_DAL
         /// <returns></returns>
         public StudentExt GetStudentById(string studentId)
         {
-            string sql = "select StudentName,StudentId,Gender,Birthday,ClassName" +
-                ",StudentIdNo,PhoneNumber,StudentAddress,CardNo from Students ";
+            string sqlWhere = " where StudentId=" + studentId;
+            return GetStudent(sqlWhere);
+        }
+
+        public StudentExt GetStudentByCardNo(string studentCardNo)
+        {
+            string sqlWhere = " where CardNo=" + studentCardNo;
+            return GetStudent(sqlWhere);
+        }
+
+        private StudentExt GetStudent(string whereSql)
+        {
+            string sql = "select StudentId,StudentName,Gender,Birthday,ClassName,";
+            sql += "StudentIdNo,PhoneNumber,StudentAddress,CardNo from Students";
             sql += " inner join StudentClass on Students.ClassId=StudentClass.ClassId ";
-            sql += " where StudentId=" +studentId;
+            sql += whereSql;
             SqlDataReader objReader = SQLHelper.GetReader(sql);
             StudentExt objStudent = null;
             if (objReader.Read())
             {
-                objStudent =new StudentExt()
+                objStudent = new StudentExt()
                 {
                     StudentId = Convert.ToInt32(objReader["StudentId"]),
                     StudentName = objReader["StudentName"].ToString(),
                     Gender = objReader["Gender"].ToString(),
                     BirthDay = Convert.ToDateTime(objReader["Birthday"]),
                     ClassName = objReader["ClassName"].ToString(),
-                CardNo=objReader["CardNo"].ToString(),
-                StudentIdNo=Convert.ToInt64( objReader["PhoneNumber"].ToString()),
-                PhoneNumber=objReader["PhoneNumber"].ToString(),
-                StudentAddress=objReader["StudentAddress"].ToString()
-                
-                
-                
+                    CardNo = objReader["CardNo"].ToString(),
+                    StudentIdNo =Convert.ToInt64( objReader["StudentIdNo"].ToString()),
+                    PhoneNumber = objReader["PhoneNumber"].ToString(),
+                    StudentAddress = objReader["StudentAddress"].ToString()
+
                 };
             }
             objReader.Close();
@@ -150,15 +160,15 @@ namespace _3_3_DAL
         {
             StringBuilder sqlBuiler = new StringBuilder();
             sqlBuiler.Append("Update Students set StudentName='{0}',Gender='{1}'," +
-                " Birthday={2},StudentIdNo={3},Age={4},PhoneNumber='{5}',StudentAddress='{6}'," +
+                " Birthday='{2}',StudentIdNo={3},Age={4},PhoneNumber='{5}',StudentAddress='{6}'," +
                 "CardNo='{7}',ClassId={8} ");
             sqlBuiler.Append("Where StudentId={9}");
 
             //[2]解析对象
             string sql = string.Format(sqlBuiler.ToString(),
-                objStudent.StudentName, objStudent.Gender, objStudent.BirthDay,
+                objStudent.StudentName, objStudent.Gender, objStudent.BirthDay.ToShortDateString(),
                 objStudent.StudentIdNo, objStudent.Age, objStudent.PhoneNumber,
-                objStudent.StudentAddress, objStudent.CardNo, objStudent.ClassId);
+                objStudent.StudentAddress, objStudent.CardNo, objStudent.ClassId,objStudent.StudentId);
 
 
             //[3]提交到数据库
@@ -176,6 +186,35 @@ namespace _3_3_DAL
                 throw ex;
             }
 
+        }
+
+
+        #endregion
+
+
+        #region 删除学员对象
+        public int DeleteStudentById(string studentId)
+        {
+            string sql = "delete from Students where StudentId=" + studentId;
+            try
+            {
+                return SQLHelper.Update(sql);
+            }
+            catch(SqlException ex)
+            {
+                if (ex.Number == 547)
+                {
+                    throw new Exception("this student object exists in other tables, can't delete it!");
+
+                }
+                else
+                    throw new Exception("Data base exception! information is: " + ex.Message);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
         }
 
 
